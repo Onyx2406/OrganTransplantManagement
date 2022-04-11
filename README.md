@@ -33,8 +33,8 @@ donors.
 should be their last name.
 
 4. Delete a donor: Same as delete patient. For example: "Benson".
-5. 
-6. Count patients: This will count the number of patients waiting and
+
+5. Count patients: This will count the number of patients waiting and
 output the number. It does not require any input arguments.
 
 6. Count donors: This will count the number of donors waiting and output
@@ -57,23 +57,35 @@ input arguments.
 
 Functions Implemented :
 myTree.buildGraph(); //builds our city graph
+
 myTree.buildDonorList(); //builds our donor table and fills it with
 placeholders
+
 myTree.buildPatientList(); //builds our patient table and fills it with
 placeholders
+
 myTree.enqueue(newPair); //adds the pair to the surgery waiting list
+
 myTree.countPatients(); //counts the number of patients in the table and
 assigns it to a variable
+
 myTree.countDonors(); //counts the number of donors in the table and
 assigns it to a variable
+
 myTree.printPatients(); //prints the list of patients and all their attributes
+
 myTree.printDonors(); //prints the list of donors and all their attributes
+
 myTree.printMatches(); //prints the list of matches made (that have not
 undergone sugery)
+
 myTree.printOrganQuantity(organ); //prints the list of matches made (that
 have not undergone sugery)
+
 myTree.Operate(); //Performs a surgery on the first Pair in the queue
+
 myTree.deletePatient(name); //deletes patient from patient table
+
 myTree.deleteDonor(name); //deletes donor from donor table
 
 Credits : Yash Sancheti, Aditya Kurele
