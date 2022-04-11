@@ -89,3 +89,8 @@ myTree.deletePatient(name); //deletes patient from patient table
 myTree.deleteDonor(name); //deletes donor from donor table
 
 Credits : Yash Sancheti, Aditya Kurele
+
+Output/Input Screenshots :
+
+![image](https://i.imgur.com/ta7L9YJ.png)
+![image](https://i.imgur.com/Skk1yEa.png)
